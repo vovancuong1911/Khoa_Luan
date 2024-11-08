@@ -1,0 +1,46 @@
+.container {
+    max-width: 600px; /* Độ rộng tối đa của box */
+    margin: 0 auto; /* Căn giữa trên màn hình */
+    padding: 20px;
+    background-color: #ffffff; /* Màu nền cho container */
+    border: 1px solid #e2e8f0; /* Viền nhẹ */
+    border-radius: 10px; /* Bo tròn góc */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+}
+
+.option {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px;
+    background-color: #f7fafc; /* Màu nền nhạt hơn */
+    border-radius: 8px;
+}
+.modal-content{
+    width:200%;
+}
+.form-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    background-color: #edf2f7; /* Màu nền nhạt */
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.form-checkbox:hover {
+    background-color: #e2e8f0;
+}
+
+.form-checkbox input[type="checkbox"] {
+    accent-color: #4a90e2;
+    width: 20px;
+    height: 20px;
+}
+
+.form-checkbox label {
+    font-size: 14px;
+    color: #2d3748;
+}
+

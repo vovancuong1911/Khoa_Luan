@@ -1,0 +1,26 @@
+.form-blogger {
+    margin: 25px auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+        height: 400px;
+    }
+
+    .blog-entry {
+        margin-top: 20px; // Khoảng cách giữa các mục
+        h3 {
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 18px;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+    }
+}

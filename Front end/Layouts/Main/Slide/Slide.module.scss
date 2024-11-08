@@ -1,0 +1,26 @@
+.img {
+    width: 90%;
+    height: 800px; /* Chiều cao tăng lên để làm cho hình ảnh dài hơn */
+    margin: 10px auto;
+    overflow: hidden;
+    background: linear-gradient(180deg, #1a1a1a, #2e2e2e); /* Gradient từ xám đậm đến xám nhạt */
+    position: relative; /* Đảm bảo phần tử có vị trí tương đối */
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Đảm bảo hình ảnh lấp đầy khung chứa */
+        position: absolute; /* Đảm bảo hình ảnh nằm trên nền */
+        top: 0;
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .img {
+        height: 600px; /* Điều chỉnh chiều cao cho màn hình nhỏ hơn */
+    }
+    .text-img {
+        width: 347px;
+    }
+}

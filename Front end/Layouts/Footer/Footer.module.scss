@@ -1,0 +1,123 @@
+.wrapper {
+    background-color: #000; // Màu nền đen cho footer
+    color: #fff; // Màu chữ trắng
+    padding: 40px 20px; // Khoảng cách padding cho footer
+    border-top: 1px solid #333; // Đường viền trên cùng màu xám tối
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px; // Khoảng cách giữa các phần tử trong header
+    border-bottom: 1px solid #333; // Đường viền dưới header màu xám tối
+    padding-bottom: 20px;
+}
+
+.header-column-1 {
+    flex: 1;
+    max-width: 300px;
+}
+
+.header-column-1 h3 {
+    font-size: 24px;
+    color: #fff; // Màu chữ trắng cho tiêu đề
+    margin-bottom: 10px;
+}
+
+.header-column-1 p {
+    font-size: 16px;
+    color: #ccc; // Màu chữ xám sáng cho văn bản
+}
+
+.input-contact {
+    display: flex;
+    flex: 1;
+    max-width: 500px;
+    gap: 10px;
+    align-items: center;
+}
+
+.input-contact input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #666; // Đường viền xám cho ô nhập liệu
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #333; // Nền ô nhập liệu màu xám tối
+    color: #fff; // Màu chữ trắng cho ô nhập liệu
+}
+
+.input-contact button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; // Màu nền nút bấm
+    color: #fff; // Màu chữ trắng cho nút bấm
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-contact button:hover {
+    background-color: #0056b3; // Màu nền khi hover
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    font-size: 24px;
+    color: #0e0e0e; // Màu biểu tượng trắng
+}
+
+.icons svg {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.icons svg:hover {
+    color: #007bff; // Màu chữ khi hover
+}
+
+.info-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.column-1 {
+    flex: 1;
+    min-width: 200px;
+    max-width: 250px;
+}
+
+.column-1 h4 {
+    font-size: 20px;
+    color: #f8f9fa; // Màu chữ sáng cho tiêu đề danh mục
+    margin-bottom: 10px;
+}
+
+.column-1 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.column-1 li {
+    font-size: 16px;
+    color: #ced4da; // Màu chữ xám sáng cho các mục danh sách
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+}
+
+.column-1 li:hover {
+    color: #007bff; // Màu chữ khi hover
+}

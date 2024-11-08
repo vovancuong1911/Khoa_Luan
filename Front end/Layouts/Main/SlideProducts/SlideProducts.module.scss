@@ -1,0 +1,94 @@
+.wrapper {
+    background: linear-gradient(180deg, #000000, #1e1e2f, #0033cc, #6600cc);
+    min-height: 100vh;
+    color: #131111;
+    padding: 20px;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+    border: 2px solid #ffa500;
+    border-radius: 8px;
+    background-color: #fff;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(90deg, #3498db, #e91e63, #9c27b0, #f39c12, #3498db);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradientMove 3s linear infinite;
+}
+
+.products-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.row-product {
+    display: flex;
+    flex-direction: row-reverse; /* Hình ảnh nằm bên phải, nội dung bên trái */
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 800px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    transition: transform 0.3s;
+    gap: 20px;
+}
+
+.row-product:hover {
+    transform: scale(1.05);
+}
+
+.image-container {
+    flex: 1;
+}
+
+#img-item {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.content {
+    flex: 2;
+    text-align: left;
+}
+
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.learn-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.learn-more-button:hover {
+    background-color: #cc8400;
+}

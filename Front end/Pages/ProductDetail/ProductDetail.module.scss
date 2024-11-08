@@ -1,0 +1,130 @@
+.inner-detail {
+    width: 80%;
+    background-color: #66cccc;
+    margin: 100px auto;
+}
+
+.form-info-product {
+    padding: 29px 20px 29px 80px;
+    display: flex;
+    gap: 20px;
+}
+
+.img-product {
+    width: 50%;
+    img {
+        width: 100%;
+    }
+}
+
+.features-caption {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+    width: 50%;
+    h3 {
+        font-size: 25px;
+    }
+    span {
+        font-weight: 800;
+        font-size: 30px;
+    }
+}
+
+.btn-add-product {
+    margin-bottom: 30px; // Thêm khoảng cách dưới nút "Add To Cart"
+    button {
+        background: #fff;
+        padding: 15px 25px;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: capitalize;
+        color: #222222;
+        border-radius: 25px;
+        cursor: pointer;
+        display: inline-block;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        border: 0;
+    }
+    
+    button:hover {
+        background-color: #e0e0e0;
+    }
+}
+
+.main-detail-product {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-des {
+    width: 100%; // Cập nhật để chiếm toàn bộ chiều rộng
+    display: flex;
+    justify-content: center; // Căn giữa các nút
+    gap: 10px; // Khoảng cách giữa các nút
+    margin-top: 30px; // Thêm khoảng cách trên cho các nút điều hướng
+}
+
+.header-des button {
+    border: none;
+    background: none;
+    font-weight: 800;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-des button.nav-one {
+    background-color: #f0f0f0; // Màu nền của các nút điều hướng
+    color: #333;
+}
+
+.header-des button.nav-one:hover {
+    background-color: #ddd; // Màu nền khi hover
+    color: #007bff; // Màu chữ khi hover
+}
+
+.header-des button.btn-active {
+    background-color: #007bff; // Màu nền cho nút đang hoạt động
+    color: #fff;
+    border-bottom: 3px solid #0056b3; // Đường viền dưới cho nút đang hoạt động
+}
+
+#text-des {
+    width: 100%;
+    text-align: justify;
+    line-height: 150%;
+    padding: 20px 0; // Thêm padding trên và dưới
+    color: #333; // Màu chữ cho phần mô tả
+}
+
+@media only screen and (max-width: 600px) {
+    .inner-detail {
+        width: 90%;
+    }
+    .img-product {
+        width: 90%;
+    }
+    .form-info-product {
+        flex-direction: column;
+        padding: 20px; // Cập nhật padding cho màn hình nhỏ
+    }
+    .text-des {
+        width: 100%;
+        padding: 20px 0px;
+        p {
+            line-height: 1.8;
+            font-weight: 500;
+            text-align: justify;
+        }
+    }
+    .header-des {
+        width: 100%;
+        flex-direction: column; // Hiển thị các nút theo cột trên màn hình nhỏ
+        align-items: center; // Canh giữa các nút
+        gap: 10px; // Khoảng cách giữa các nút
+    }
+}
